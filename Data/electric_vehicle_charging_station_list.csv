@@ -1,0 +1,51 @@
+Station_ID,Station_Name,Region,State,City,Charger_Type,Power_kW,Latitude,Longitude,Operator,Status
+CS001,Delhi Connaught Place Hub,North,Delhi,New Delhi,CCS,60,28.6315,77.2167,Tata Power,Active
+CS002,Delhi IGI Airport T3,North,Delhi,New Delhi,CCS,120,28.5562,77.1000,BlaCcharge,Active
+CS003,Gurgaon Cyber Hub,North,Haryana,Gurugram,Type 2,22,28.4950,77.0880,Ather Grid,Active
+CS004,Noida Sector 18 Mall,North,Uttar Pradesh,Noida,CCS,50,28.5708,77.3261,Statiq,Active
+CS005,Chandigarh Sector 17,North,Chandigarh,Chandigarh,CCS,60,30.7415,76.7780,Tata Power,Active
+CS006,Jaipur Tonk Road,North,Rajasthan,Jaipur,Type 2,22,26.8610,75.8040,Fortum,Active
+CS007,Lucknow Hazratganj,North,Uttar Pradesh,Lucknow,CCS,50,26.8500,80.9500,Statiq,Active
+CS008,Bengaluru MG Road,South,Karnataka,Bengaluru,CCS,60,12.9750,77.6060,Ather Grid,Active
+CS009,Bengaluru Electronic City,South,Karnataka,Bengaluru,CCS,120,12.8450,77.6600,Tata Power,Active
+CS010,Chennai T Nagar,South,Tamil Nadu,Chennai,Type 2,22,13.0418,80.2340,Statiq,Active
+CS011,Chennai Airport,South,Tamil Nadu,Chennai,CCS,90,12.9941,80.1709,BlaCcharge,Active
+CS012,Hyderabad HITEC City,South,Telangana,Hyderabad,CCS,60,17.4480,78.3900,Ather Grid,Active
+CS013,Hyderabad Gachibowli,South,Telangana,Hyderabad,CHAdeMO,50,17.4401,78.3489,Fortum,Active
+CS014,Kochi Vyttila,South,Kerala,Ernakulam,CCS,30,9.9629,76.3193,KSEB,Active
+CS015,Thiruvananthapuram Pattom,South,Kerala,Thiruvananthapuram,CCS,30,8.5166,76.9394,KSEB,Active
+CS016,Kozhikode Gandhi Road,South,Kerala,Kozhikode,Type 2,22,11.2629,75.7681,KSEB,Active
+CS017,Coimbatore RS Puram,South,Tamil Nadu,Coimbatore,CCS,50,11.0041,76.9610,Statiq,Active
+CS018,Mysuru City Centre,South,Karnataka,Mysuru,Type 2,11,12.2958,76.6394,Ather Grid,Active
+CS019,Mumbai BKC,West,Maharashtra,Mumbai,CCS,120,19.0670,72.8700,Tata Power,Active
+CS020,Mumbai Andheri West,West,Maharashtra,Mumbai,Type 2,22,19.1360,72.8270,Ather Grid,Active
+CS021,Pune Hinjewadi,West,Maharashtra,Pune,CCS,60,18.5912,73.7389,Statiq,Active
+CS022,Pune FC Road,West,Maharashtra,Pune,Type 2,22,18.5200,73.8400,Fortum,Active
+CS023,Ahmedabad SG Highway,West,Gujarat,Ahmedabad,CCS,90,23.0400,72.5200,Tata Power,Active
+CS024,Surat Ring Road,West,Gujarat,Surat,CCS,50,21.1702,72.8311,Statiq,Active
+CS025,Goa Panaji,West,Goa,Panaji,Type 2,22,15.4909,73.8278,Fortum,Active
+CS026,Nagpur Airport,West,Maharashtra,Nagpur,CCS,60,21.0922,79.0472,BlaCcharge,Active
+CS027,Kolkata Park Street,East,West Bengal,Kolkata,CCS,50,22.5535,88.3520,Tata Power,Active
+CS028,Kolkata Salt Lake,East,West Bengal,Kolkata,Type 2,22,22.5800,88.4200,Statiq,Active
+CS029,Bhubaneswar Patia,East,Odisha,Bhubaneswar,CCS,50,20.3540,85.8190,Fortum,Active
+CS030,Patna Boring Road,East,Bihar,Patna,Type 2,22,25.6100,85.1200,Statiq,Active
+CS031,Guwahati GS Road,East,Assam,Guwahati,CCS,50,26.1445,91.7362,Tata Power,Active
+CS032,Ranchi Main Road,East,Jharkhand,Ranchi,CHAdeMO,50,23.3441,85.3096,Fortum,Active
+CS033,Bhopal MP Nagar,Central,Madhya Pradesh,Bhopal,CCS,60,23.2330,77.4340,Statiq,Active
+CS034,Indore Vijay Nagar,Central,Madhya Pradesh,Indore,Type 2,22,22.7530,75.8940,Ather Grid,Active
+CS035,Raipur GE Road,Central,Chhattisgarh,Raipur,CCS,50,21.2514,81.6296,Tata Power,Active
+CS036,Nagpur MIHAN,Central,Maharashtra,Nagpur,CCS,90,21.0920,79.0800,BlaCcharge,Active
+CS037,Delhi Dwarka Sector 21,North,Delhi,New Delhi,CCS,150,28.5520,77.0590,Tata Power,Active
+CS038,Bengaluru Hebbal,South,Karnataka,Bengaluru,Type 2,22,13.0358,77.5970,Ather Grid,Active
+CS039,Mumbai Worli Sea Face,West,Maharashtra,Mumbai,CCS,60,19.0170,72.8160,Fortum,Active
+CS040,Hyderabad Secunderabad,South,Telangana,Hyderabad,Type 2,22,17.4399,78.4983,Statiq,Active
+CS041,Jaipur Airport,North,Rajasthan,Jaipur,CCS,90,26.8242,75.8122,BlaCcharge,Active
+CS042,Chennai OMR IT Corridor,South,Tamil Nadu,Chennai,CCS,60,12.9200,80.2300,Ather Grid,Active
+CS043,Ahmedabad Airport,West,Gujarat,Ahmedabad,CCS,120,23.0772,72.6347,Tata Power,Active
+CS044,Kolkata Airport,East,West Bengal,Kolkata,CCS,90,22.6547,88.4467,BlaCcharge,Active
+CS045,Pune Airport,West,Maharashtra,Pune,CCS,60,18.5821,73.9197,Statiq,Active
+CS046,Kochi Infopark,South,Kerala,Ernakulam,Type 2,22,10.0110,76.3630,KSEB,Active
+CS047,Delhi Saket Select City,North,Delhi,New Delhi,Type 2,22,28.5280,77.2190,Ather Grid,Active
+CS048,Lucknow Airport,North,Uttar Pradesh,Lucknow,CCS,60,26.7606,80.8893,BlaCcharge,Active
+CS049,Bhopal Airport,Central,Madhya Pradesh,Bhopal,CCS,50,23.2875,77.3374,Fortum,Active
+CS050,Surat Airport,West,Gujarat,Surat,Type 2,22,21.1144,72.7418,Statiq,Active

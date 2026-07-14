@@ -1,4 +1,4 @@
-"""Worksheet: Cheapest Cars (uses global EV data ranked by price)"""
+"""Worksheet: Cheapest Cars (Cheapestelectriccars-EVDatabase)"""
 import sys
 from pathlib import Path
 
@@ -6,15 +6,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from utils import load_global_ev
+from utils import load_cheapest_ev
 
-df = load_global_ev()
-cheap = df.nsmallest(10, "PriceEuro").copy()
-cheap["Label"] = cheap["Brand"] + " " + cheap["Model"]
+df = load_cheapest_ev().dropna(subset=["Price_Germany"]).nsmallest(10, "Price_Germany")
 
 plt.figure(figsize=(10, 6))
-sns.barplot(data=cheap, y="Label", x="PriceEuro", color="#27AE60", orient="h")
-plt.title("Cheapest Cars (Top 10)")
+sns.barplot(data=df, y="Name", x="Price_Germany", color="#27AE60", orient="h")
+plt.title("Cheapest Cars (Top 10 — Germany €)")
 plt.xlabel("Price (EUR)")
 plt.ylabel("")
 plt.tight_layout()

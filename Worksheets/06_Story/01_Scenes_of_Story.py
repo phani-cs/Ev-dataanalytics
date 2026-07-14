@@ -3,11 +3,11 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from utils import load_global_ev, load_india_ev, load_sample_charging
+from utils import load_global_ev, load_india_ev, load_charging_stations
 
 global_ev = load_global_ev()
 india = load_india_ev()
-charging = load_sample_charging()
+charging = load_charging_stations()
 
 print("=" * 50)
 print("SCENES OF STORY — EV Data Analytics")
