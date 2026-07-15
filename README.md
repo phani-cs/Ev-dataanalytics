@@ -124,6 +124,4 @@ python -m pip install -r requirements.txt
 
 ---
 
-## License
 
-For educational and portfolio use.
