@@ -57,44 +57,70 @@ Open the **Datasets** page in the website to browse all four tables.
 
 ---
 
-## Run as a website
+## How to run
+
+1. Copy project folder to other laptop (`Data_Analytics` / `Ev-dataanalytics`)
+
+2. Install software
+   - Python 3.10+ (recommended 3.12)
+   - During install, tick **Add Python to PATH**
+
+3. Open terminal in project folder
 
 ```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Start the website
-streamlit run app.py
+cd path\to\Data_Analytics
 ```
 
-Then open **http://localhost:8501** in your browser.
+4. Install Python packages once
 
-Website pages:
+```bash
+python -m pip install -r requirements.txt
+```
 
-- **Home** — KPIs + price vs range
-- **Datasets** — view all 4 tables
-- **Pricing / Performance / Market / Charging / India EVs / Story** — charts
+5. Run app
+
+```bash
+python -m streamlit run app.py
+```
+
+6. Open in browser
+
+```text
+http://localhost:8501
+```
+
+### If error comes
+
+- **Python not found**  
+  Install Python and add to PATH. Or use full path:
+
+```bash
+"%LOCALAPPDATA%\Programs\Python\Python312\python.exe" -m streamlit run app.py
+```
+
+- **streamlit not recognized**  
+  Install again:
+
+```bash
+python -m pip install streamlit plotly pandas
+```
+
+- **ModuleNotFoundError**  
+  Reinstall requirements:
+
+```bash
+python -m pip install -r requirements.txt
+```
 
 ---
 
 ## Publish online (Streamlit Cloud — free)
 
-1. Push this repo to GitHub (already: `https://github.com/phani-cs/Ev-dataanalytics`).
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **New app**.
-4. Choose repo `phani-cs/Ev-dataanalytics`, branch `main`, main file `app.py`.
-5. Click **Deploy**.
-
-You get a public URL like `https://ev-dataanalytics.streamlit.app`.
-
----
-
-## Run individual worksheet scripts
-
-```bash
-python Worksheets/01_Pricing/01_Average_Price_by_Brand.py
-python Worksheets/06_Story/01_Scenes_of_Story.py
-```
+1. Push this repo to GitHub (`https://github.com/phani-cs/Ev-dataanalytics`)
+2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
+3. Click **New app**
+4. Choose repo `phani-cs/Ev-dataanalytics`, branch `main`, main file `app.py`
+5. Click **Deploy**
 
 ---
 
